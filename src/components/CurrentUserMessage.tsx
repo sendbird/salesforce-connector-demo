@@ -31,9 +31,9 @@ const SentTime = styled.div`
 `;
 
 const BodyComponent = styled.div`
-  background-color: #742ddd;
+  background-color: #469fdb;
   &:hover {
-    background-color: #6211c8;
+    background-color: #177cc0;
   }
   color: rgba(255, 255, 255, 0.88);
   max-width: 600px;
