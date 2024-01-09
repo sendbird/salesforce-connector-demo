@@ -15,14 +15,7 @@ const StyledWidgetButtonWrapper = styled.button`
   right: 24px;
   width: 48px;
   height: 48px;
-  background: conic-gradient(
-    from 180deg at 50% 50%,
-    #4dcd90 -17.35deg,
-    #6210cc 80.63deg,
-    #6210cc 176.25deg,
-    #4dcd90 342.65deg,
-    #6210cc 440.63deg
-  );
+  background: conic-gradient(from 180deg at 50% 50%, #4AABF1 -17.35deg, #4D9EDA 80.63deg, #4D9EDA 160.2deg, #4AABF1 342.65deg, #4D9EDA 440.63deg);
   border-radius: 50%;
   color: white;
   transition: all 0.3s cubic-bezier(0.31, -0.105, 0.43, 1.4);
@@ -132,7 +125,7 @@ const ChatAiWidget = (props: Props) => {
       <WidgetWindow isOpen={isOpen} setIsOpen={setIsOpen} {...props} />
       <StyledWidgetButtonWrapper onClick={buttonClickHandler}>
         <StyledWidgetIcon isOpen={isOpen}>
-          <ChatBotIcon />
+          <ChatBotIcon style={{ paddingLeft: '2px' }} />
         </StyledWidgetIcon>
         <StyledArrowIcon isOpen={isOpen}>
           <ArrowDownIcon />

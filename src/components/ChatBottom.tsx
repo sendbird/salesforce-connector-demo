@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 import { useConstantState } from '../context/ConstantContext';
-import { ReactComponent as SendbirdLogo } from '../icons/sendbird-logo-widget.svg';
+import { ReactComponent as SendbirdLogo } from '../icons/sendbird-logo.svg';
 
 const Container = styled.div`
   width: 100%;

@@ -84,9 +84,6 @@ export default function CustomChannelHeader(props: Props) {
           width="34px"
         />
         <Title>{botUser?.nickname || channel.name}</Title>
-        {!isMobile && (betaMark || customBetaMarkText) && (
-          <BetaLogo>{customBetaMarkText}</BetaLogo>
-        )}
       </SubContainer>
       <RenewButtonContainer>
         <RenewButtonForWidgetDemo onClick={onClickRenewButton}>

@@ -17,7 +17,7 @@ export default defineConfig({
     dts(),
   ],
   // to point to correct path for gh-pages
-  base: '/chat-ai-widget',
+  base: '/salesforce-connector-demo',
   // https://github.com/rajinwonderland/react-code-blocks/issues/75
   // https://github.com/vitejs/vite/discussions/5912#discussioncomment-2908994
   // for code-blocks
